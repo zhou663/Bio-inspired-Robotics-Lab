@@ -10,7 +10,13 @@ title: News & Media
     <li>
       <p>{{ item.description }}</p>
       {% if item.link %}
-      {% assign embed_url = item.link | replace: 'watch?v=', 'embed/' | replace: 'youtu.be/', 'www.youtube.com/embed/' %}
+      {% assign embed_url = item.link
+        | replace: 'https://youtu.be/', 'https://www.youtube.com/embed/'
+        | replace: 'http://youtu.be/', 'https://www.youtube.com/embed/'
+        | replace: 'https://youtube.com/shorts/', 'https://www.youtube.com/embed/'
+        | replace: 'https://www.youtube.com/shorts/', 'https://www.youtube.com/embed/'
+        | replace: 'watch?v=', 'embed/'
+        | replace: '&', '?' %}
       <div class="news-video">
         <iframe src="{{ embed_url }}" title="{{ item.description }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
