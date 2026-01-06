@@ -32,9 +32,8 @@ layout: default
       <div class="card">
         {% for item in site.data.news limit:5 %}
         <div class="news-item">
-          <strong>{{ item.date }}</strong>
-          <p>{{ item.title }}</p>
-          {% if item.link %}<a href="{{ item.link }}" target="_blank" rel="noopener">Read more</a>{% endif %}
+          <p>{{ item.description }}</p>
+          {% if item.link %}<a href="{{ item.link }}" target="_blank" rel="noopener">Watch video</a>{% endif %}
         </div>
         {% endfor %}
       </div>
