@@ -1,9 +1,9 @@
+# Jekyll configuration for GitHub Pages
+# When deploying to GitHub Pages via the Pages settings, leave baseurl empty.
 title: Bio-inspired Robotics Lab
-email: example@lab.edu
-description: >-
-  Bio-inspired Robotics Lab website powered by Jekyll.
 url: "https://zhou663.github.io"
 baseurl: "/Bio-inspired-Robotics-Lab"
+url: ""
 markdown: kramdown
 theme: minima
 plugins:

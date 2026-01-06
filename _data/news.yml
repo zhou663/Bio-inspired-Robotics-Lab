@@ -1,6 +1,12 @@
-- description: Stable flight with asymmetric wing damage
-  link: https://www.youtube.com/watch?v=utumOU0nf1c
-- description: Soft gripper handling delicate objects
-  link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-- description: Underwater drone field test with bio-inspired sensing
-  link: https://www.youtube.com/watch?v=abcdefghijk
+- date: 2024-11-15
+  title: Our soft gripper featured in Tech Robotics Weekly.
+  link: https://example.com/news-1
+- date: 2024-10-01
+  title: New grant awarded to explore adaptive underwater drones.
+  link: https://example.com/news-2
+- date: 2024-08-20
+  title: Team presents three papers at IROS 2024.
+  link: https://example.com/news-3
+- date: 2024-06-05
+  title: Outreach workshop with local schools on bio-inspired design.
+  link: https://example.com/news-4
