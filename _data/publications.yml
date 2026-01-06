@@ -1,0 +1,23 @@
+- title: Soft robotic grippers for delicate handling
+  venue: Robotics & Automation Letters, 2024
+  authors: Rivera A., Kim J., Li M.
+  link: https://example.com/publication-1
+  summary: Demonstrates a compliant gripper that adapts to object shape with minimal sensing.
+  tags: [Soft Robotics, Manipulation, Compliance]
+  thumbnail: https://placehold.co/200x200
+
+- title: Terrain-aware control for quadruped robots
+  venue: ICRA, 2023
+  authors: Kim J., Rivera A.
+  link: https://example.com/publication-2
+  summary: Presents a learning-based controller that adapts gaits using terrain classification.
+  tags: [Legged Locomotion, Machine Learning]
+  thumbnail: https://placehold.co/200x200
+
+- title: Bio-inspired sensing for underwater drones
+  venue: OCEANS, 2022
+  authors: Li M., Rivera A.
+  link: https://example.com/publication-3
+  summary: Integrates flow sensors inspired by fish lateral lines to improve underwater navigation.
+  tags: [Underwater Robotics, Sensing]
+  thumbnail: https://placehold.co/200x200

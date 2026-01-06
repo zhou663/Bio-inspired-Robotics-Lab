@@ -1,0 +1,21 @@
+title: Bio-inspired Robotics Lab
+email: example@lab.edu
+description: >-
+  Bio-inspired Robotics Lab website powered by Jekyll.
+url: "https://zhou663.github.io"
+baseurl: "/Bio-inspired-Robotics-Lab"
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Include the assets directory for CSS/JS
+include:
+  - assets
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
