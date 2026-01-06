@@ -1,0 +1,14 @@
+- name: Dr. Alex Rivera
+  role: Principal Investigator
+  bio: Leads bio-inspired robotics research with a focus on soft actuators and adaptive control.
+  photo: https://placehold.co/300x300
+
+- name: Jordan Kim
+  role: PhD Student
+  bio: Investigates locomotion strategies for legged robots in unstructured terrain.
+  photo: https://placehold.co/300x300
+
+- name: Morgan Li
+  role: Research Engineer
+  bio: Builds custom embedded systems and sensing pipelines for lab prototypes.
+  photo: https://placehold.co/300x300
