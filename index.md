@@ -32,9 +32,13 @@ layout: default
       <div class="card">
         {% for item in site.data.news limit:5 %}
         <div class="news-item">
-          <strong>{{ item.date }}</strong>
-          <p>{{ item.title }}</p>
-          {% if item.link %}<a href="{{ item.link }}" target="_blank" rel="noopener">Read more</a>{% endif %}
+          <p>{{ item.description }}</p>
+          {% if item.link %}
+          {% assign embed_url = item.link | replace: 'watch?v=', 'embed/' | replace: 'youtu.be/', 'www.youtube.com/embed/' %}
+          <div class="news-video">
+            <iframe src="{{ embed_url }}" title="{{ item.description }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          {% endif %}
         </div>
         {% endfor %}
       </div>
